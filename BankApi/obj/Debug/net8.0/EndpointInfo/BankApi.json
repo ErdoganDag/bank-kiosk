@@ -1,0 +1,330 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "BankApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/BankCustomers/login": {
+      "post": {
+        "tags": [
+          "BankCustomers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/BankCustomers": {
+      "get": {
+        "tags": [
+          "BankCustomers"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BankCustomer"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BankCustomer"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BankCustomer"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "BankCustomers"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BankCustomer"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BankCustomer"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BankCustomer"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BankCustomer"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BankCustomer"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BankCustomer"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/BankCustomers/{id}": {
+      "get": {
+        "tags": [
+          "BankCustomers"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BankCustomer"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BankCustomer"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BankCustomer"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "BankCustomers"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BankCustomer"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BankCustomer"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BankCustomer"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "BankCustomers"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BankCustomer": {
+        "type": "object",
+        "properties": {
+          "bankCustomerId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "customerNumber": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "tckn": {
+            "type": "string",
+            "nullable": true
+          },
+          "vkn": {
+            "type": "string",
+            "nullable": true
+          },
+          "mobile": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardno": {
+            "type": "string",
+            "nullable": true
+          },
+          "ykn": {
+            "type": "string",
+            "nullable": true
+          },
+          "isim": {
+            "type": "string",
+            "nullable": true
+          },
+          "dogumTarihi": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "sahipSube": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "kilavuzSube": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "musteriTipi": {
+            "type": "string",
+            "nullable": true
+          },
+          "segment": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "cinsiyet": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "meslek": {
+            "type": "string",
+            "nullable": true
+          },
+          "kvkDurum": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "kvkIzni": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "engelDurumu": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "mesaj": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "tckn": {
+            "type": "string",
+            "nullable": true
+          },
+          "dogumTarihi": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

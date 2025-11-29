@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|c:\\users\\francescowp\\source\\repos\\bankapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|c:\\users\\francescowp\\source\\repos\\bankapi\\data\\bankdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|solutionrelative:data\\bankdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|c:\\users\\francescowp\\source\\repos\\bankapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|c:\\users\\francescowp\\source\\repos\\bankapi\\controllers\\buttonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|solutionrelative:controllers\\buttonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|c:\\users\\francescowp\\source\\repos\\bankapi\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|solutionrelative:controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|c:\\users\\francescowp\\source\\repos\\bankapi\\controllers\\processcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|solutionrelative:controllers\\processcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|c:\\users\\francescowp\\source\\repos\\bankapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|c:\\users\\francescowp\\source\\repos\\bankapi\\models\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|solutionrelative:models\\process.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|c:\\users\\francescowp\\source\\repos\\bankapi\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|solutionrelative:models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|c:\\users\\francescowp\\source\\repos\\bankapi\\models\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|solutionrelative:models\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|c:\\users\\francescowp\\source\\repos\\bankapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0E83FC-2E3B-4D3F-882B-9F7D98ABB702}|BankApi.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:25:19.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:13:12.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BankDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Data\\BankDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\BankDbContext.cs",
+              "ToolTip": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Data\\BankDbContext.cs",
+              "RelativeToolTip": "Data\\BankDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:12:27.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:04:57.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ButtonsController.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Controllers\\ButtonsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ButtonsController.cs",
+              "ToolTip": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Controllers\\ButtonsController.cs",
+              "RelativeToolTip": "Controllers\\ButtonsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:04:40.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProcessController.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Controllers\\ProcessController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProcessController.cs",
+              "ToolTip": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Controllers\\ProcessController.cs",
+              "RelativeToolTip": "Controllers\\ProcessController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:04:13.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TicketsController.cs",
+              "ToolTip": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "Controllers\\TicketsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:03:47.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Process.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Models\\Process.cs",
+              "RelativeDocumentMoniker": "Models\\Process.cs",
+              "ToolTip": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Models\\Process.cs",
+              "RelativeToolTip": "Models\\Process.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:03:01.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:02:12.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Button.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Models\\Button.cs",
+              "RelativeDocumentMoniker": "Models\\Button.cs",
+              "ToolTip": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Models\\Button.cs",
+              "RelativeToolTip": "Models\\Button.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T16:01:48.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\FRANCESCOWP\\source\\repos\\BankApi\\Models\\Ticket.cs",
+              "RelativeToolTip": "Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T15:58:12.967Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

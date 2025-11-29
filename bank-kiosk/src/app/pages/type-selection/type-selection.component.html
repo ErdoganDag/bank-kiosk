@@ -1,0 +1,17 @@
+<div class="type-selection-page">
+  <h1>📂 İşlem Türünü Seçin</h1>
+
+  <div class="categories-container">
+    <div
+      class="category-card"
+      *ngFor="let category of categories"
+      (click)="selectCategory(category)"
+    >
+      <div class="category-icon">
+        <fa-icon [icon]="getCategoryIcon(category.name)"></fa-icon>
+      </div>
+      <h2>{{ category.name }}</h2>
+      <!-- <p>{{ category.startNumber }} - {{ category.endNumber }}</p> -->
+    </div>
+  </div>
+</div>

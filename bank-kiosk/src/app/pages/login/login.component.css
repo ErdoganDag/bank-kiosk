@@ -1,0 +1,112 @@
+.page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #004e92, #000428);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 100px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 0;
+  opacity: 0.85;
+}
+
+.display-input {
+  font-size: 2rem;
+  padding: 0.7rem;
+  width: 300px;
+  max-width: 90%;
+  text-align: center;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.numpad {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(4, 100px);
+  gap: 15px;
+  justify-content: center;
+}
+
+.numpad button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.numpad button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.numpad .clear {
+  background-color: #dc3545;
+}
+
+.numpad .confirm {
+  background-color: #28a745;
+}
+
+.numpad .zero {
+  grid-column: 2 / 3; /* 0 ortada */
+}
+
+.error {
+  margin-top: 1.5rem;
+  color: #ff6666;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .numpad {
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(4, 80px);
+    gap: 10px;
+  }
+  .numpad button {
+    font-size: 1.2rem;
+  }
+  .display-input {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+}

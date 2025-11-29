@@ -1,0 +1,29 @@
+<div class="page">
+  <div class="header">
+    <img src="assets/logo.png" alt="Kiosk Logo" class="logo" />
+    <h1>Hoşgeldiniz</h1>
+    <h2>Lütfen Kimlik veya Telefon Numaranızı Giriniz</h2>
+  </div>
+
+  <input
+    type="text"
+    [value]="inputValue"
+    readonly
+    class="display-input"
+    placeholder="Numara giriniz"
+  />
+
+  <div class="numpad">
+    <button
+      *ngFor="let num of numbers; let i = index"
+      (click)="press(num)"
+      [class.zero]="num === '0'"
+    >
+      {{ num }}
+    </button>
+    <button class="clear" (click)="clear()">Sil</button>
+    <button class="confirm" (click)="confirm()">Giriş →</button>
+  </div>
+
+  <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+</div>

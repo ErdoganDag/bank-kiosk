@@ -41,18 +41,6 @@ Frontend → Backend → Frontend ticket flow
 Şu an proje mockup içermiyor. Aşağıdaki görseller “örnek tasarım görselleri”dir.
 Sen gerçek ekranlarını gönderdiğinde buraya gerçek screenshot’larını ekleyebiliriz.
 
-🔢 NumPad Ekranı (Mockup)
- ------------------------------
-|         BANK KIOSK           |
-|    Kimlik/Telefon Girişi     |
-|   [   5 3 1 0 2 8 ...   ]    |
-| [1] [2] [3]                  |
-| [4] [5] [6]                  |
-| [7] [8] [9]                  |
-|    [0]                       |
-| [Giriş]        [Sil]         |
- ------------------------------
-
 🛠 Teknolojiler
 Teknoloji	Açıklama
 Angular 17+ (Standalone)	Projenin ana çatısı
@@ -61,27 +49,6 @@ CSS / Gradient UI	Kiosk’a özel tasarım teması
 Router	Çok adımlı navigasyon
 LocalStorage	Kullanıcı tipinin saklanması
 REST API (ASP.NET Core)	Bilet oluşturma backend’i
-
-📂 Proje Yapısı
-bank-kiosk/
-│
-├── src/app/
-│   ├── pages/
-│   │   ├── login/
-│   │   │   ├── login.component.ts
-│   │   │   ├── login.component.html
-│   │   │   └── login.component.css
-│   │   ├── type-selection/
-│   │   │   ├── type-selection.component.ts
-│   │   │   ├── type-selection.component.html
-│   │   │   └── type-selection.component.css
-│   │   └── ticket/
-│   │       └── ...
-│   ├── app.routes.ts
-│   └── main.ts
-│
-└── assets/
-    └── logo.png
 
 ⚙️ Kurulum
 1️⃣ Bağımlılıkları yükleyin

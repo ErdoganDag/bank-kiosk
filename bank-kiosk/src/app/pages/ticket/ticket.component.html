@@ -1,0 +1,30 @@
+<div class="ticket-page" *ngIf="ticket">
+  <div class="ticket-card">
+    <h1>📄 Biletiniz Hazır</h1>
+
+    <div class="ticket-info">
+      <p><strong>Sıra Numaranız:</strong> {{ ticket.ticketNumber }}</p>
+      <p><strong>İşlem Türü:</strong> {{ categoryName }}</p>
+      <p><strong>Tarih:</strong> {{ date | date : 'short' }}</p>
+    </div>
+
+    <!-- QR Kod -->
+    <div class="qr-container">
+      <qrcode [qrdata]="ticket.ticketNumber.toString()" [width]="180" [errorCorrectionLevel]="'M'">
+      </qrcode>
+    </div>
+
+    <!-- İşlem tipi ikonu -->
+    <div class="icon">
+      <fa-icon [icon]="getProcessIcon()"></fa-icon>
+    </div>
+
+    <!-- PDF Yazdır butonu -->
+    <button class="btn-print" (click)="generatePDFAndPrint()">🖨️ PDF Yazdır</button>
+  </div>
+</div>
+
+<!-- Eğer ticket yoksa kullanıcıyı bilgilendir -->
+<div *ngIf="!ticket" class="no-ticket">
+  <p>⚠️ Bilet oluşturulmadı. Lütfen kategori seçin.</p>
+</div>
